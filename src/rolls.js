@@ -73,7 +73,7 @@ function rolls()
     return(
         <div className="loginbox" >
         <img src={logo} className="avatar" alt="logo"></img>
-        <h2 class="homecent">Kathi Rolls</h2>
+        <h2 className="homecent">Kathi Rolls</h2>
         <form>
         
         </form>
