@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Signup from './Reg';
+import Reg from './Reg';
 import home from './home';
 import rolls from './rolls';
 import Menucat from './rolls';
@@ -14,7 +14,7 @@ const route = (
     <BrowserRouter>
     <div>
         <Route exact path = "/" component={App}/>
-        <Route path = "/Reg" component={Signup}/>
+        <Route path = "/Reg" component={Reg}/>
         <Route path = "/home" component={home}/>
         <Route path = "/rolls" component={rolls}/>
         <Route path = "/cat" component={Menucat}/>
